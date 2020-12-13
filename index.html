@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet/less" type="text/css" href="./css/them.less" />
+
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <div id="modal" class="modal">
+        <!-- Modal content -->
+
+        <div class="modal-content">
+            <span  id="close" class="close">&times;</span>
+            <div class="image-with-text">
+                <div class="big-circle">
+                    <div class="inner-circle-content">
+                        <div class="inner-circle">
+                            <div class="ibu-container">
+                                <span id="ibu-title" class="ibu-title">IBU</span>
+                                <span id="ibu-value" class="ibu-value">25</span>
+                            </div>
+                            <div class="circle-content">
+                                <img id="item-image" src="" class="circle-image"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="abv-text" class="abv-text">
+                        5.1%
+                    </div>
+                </div>
+                <p id="description-text" class="description-text">
+                    The earthy and floral aromas from the hops can be overpowering. Drop a little Cascade in at the end of the boil to lift the profile with a bit of citrus.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <p id="item-name" class="item-name">Buzz</p>
+                <ul id="orders-dropdown">
+                    <li id="order-button" class="button" >
+                        <a class="order">Order</a>
+                        <ul>
+                            <li class="sub-button" onclick="">
+                                <a class="sub-order">Glass </a>
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                </ul>
+                            </li>
+                            <li class="sub-button" onclick="">
+                                <a class="sub-order">Can</a>
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                </ul>
+                            </li>
+                            <li class="sub-button" onclick="">
+                                <a class="sub-order">Box</a>
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/itemsView.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/less" ></script>
+</body>
+</html>
